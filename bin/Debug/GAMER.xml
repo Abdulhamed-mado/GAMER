@@ -1,0 +1,611 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GAMER
+</name>
+</assembly>
+<members>
+<member name="T:GAMER.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:GAMER.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:GAMER.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet.cardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet.cardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet.cardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSetTableAdapters.cardsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1.cardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1.cardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1.cardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1TableAdapters.cardsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2.walletDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2.walletRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2.walletRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2TableAdapters.walletTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3.cardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3.cardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3.cardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3TableAdapters.cardsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8.sellDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8.sellRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8.sellRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8TableAdapters.sellTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(GAMER.GAMERDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(GAMER.GAMERDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(GAMER.GAMERDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.UpdateAll(GAMER.GAMERDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:GAMER.GAMERDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
